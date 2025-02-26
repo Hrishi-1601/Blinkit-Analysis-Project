@@ -1,6 +1,6 @@
 # Blinkit-Analysis-Project
 
-# Blinkit Business Startegy:
+# Blinkit Business Strategy:
 Core Challenges of Quick Commerce:
  * Low Average Order Value (AOV): Small orders make it difficult to cover high operational costs.
  * High Delivery Costs: Free and rapid delivery, especially with rising fuel and labor costs, significantly impacts profitability.
