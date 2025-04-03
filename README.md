@@ -85,6 +85,33 @@ One-to-Many Relationships: Customers ↔ Orders, Orders ↔ Revenue Streams, Ord
 
 
 
+Orders Table (Fact Table)
+
+Captures business transactions (orders placed by customers).
+
+Contains measurable values like OrderValue, DeliveryTime, and PriceHikeApplied.
+
+Links to dimensions like Customers, Products, and Locations for analysis.
+
+2️⃣ Revenue Table (Fact Table)
+
+Stores monetary values related to different revenue streams (e.g., Delivery Fees, Advertising Revenue, Product Sales).
+
+Revenue is an aggregatable metric—a key characteristic of fact tables.
+
+Can be linked to the Orders Table using OrderID.
+
+3️⃣ Costs Table (Fact Table)
+
+Contains measurable financial data related to order fulfillment (e.g., Fixed Costs, Variable Costs).
+
+Used to calculate profitability by comparing it against revenue.
+
+Can be linked to OrderID for cost analysis per order.
+
+
+
+
 
 
 
